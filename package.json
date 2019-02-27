@@ -1,6 +1,6 @@
 {
   "name": "jinqu-odata",
-  "version": "0.1.0",
+  "version": "0.1.0-alpha.1",
   "description": "Jinqu OData metadata generator",
   "main": "index.js",
   "keywords": [
@@ -27,6 +27,6 @@
     "xml2js": "^0.4.19"
   },
   "bin": {
-    "jinqu-odata": "./metadata-generator.js"
+    "jinqu-odata": "./src/metadata-generator.js"
   }
 }
