@@ -1,0 +1,32 @@
+{
+  "name": "jinqu-odata",
+  "version": "0.1.0",
+  "description": "Jinqu OData metadata generator",
+  "main": "index.js",
+  "keywords": [
+    "linq",
+    "jinqu",
+    "odata",
+    "metadata",
+    "generator",
+    "query",
+    "ajax"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jin-qu/jinqu-odata-metadata"
+  },
+  "scripts": {},
+  "author": "Umut Özel",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "commander": "^2.19.0",
+    "handlebars": "^4.1.0",
+    "jinqu-odata": "^0.2.0",
+    "xml2js": "^0.4.19"
+  },
+  "bin": {
+    "jinqu-odata": "./metadata-generator.js"
+  }
+}
