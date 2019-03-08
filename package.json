@@ -1,8 +1,8 @@
 {
-  "name": "jinqu-odata",
+  "name": "jinqu-odata-cli",
   "version": "0.1.0-alpha.1",
   "description": "Jinqu OData metadata generator",
-  "main": "index.js",
+  "main": "src/cli.js",
   "keywords": [
     "linq",
     "jinqu",
@@ -20,13 +20,13 @@
   "author": "Umut Özel",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
     "commander": "^2.19.0",
     "handlebars": "^4.1.0",
-    "jinqu-odata": "^0.2.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
     "xml2js": "^0.4.19"
   },
   "bin": {
-    "jinqu-odata": "./src/metadata-generator.js"
+    "jinqu-odata": "./src/cli.js"
   }
 }
